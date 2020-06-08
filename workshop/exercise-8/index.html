@@ -1,1 +1,67 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+        <label>Username
+            <input type="text" required placeholder="john.smith">
+        </label>
+        <label>Password
+            <input type="password" required placeholder="********">
+        </label>
+        <label>Email
+            <input type="email" required placeholder="example@domain.com">
+        </label>
+        <div>Which taxi do you require?</div>
+        <div>
+            <label>
+                <input type="radio" required /> Car
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" required /> Van
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" required /> Tuk Tuk
+            </label>
+        </div>
+        <div>Extras</div>
+        <div>
+            <label>
+                <input type="checkbox"> Baby
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox"> Wheelchair Access
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox"> Stock Tip
+            </label>
+        </div>
+        <div>
+            <label>
+                Pickup
+                <select>
+                    <option selected="selected" disabled>Select One</option>
+                    <option>Taxi Office</option>
+                    <option>Town Hall</option>
+                    <option>We'll Guess!</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                Special
+                <textarea cols="20" rows="2"></textarea>
+            </label>
+        </div>
+        <button>Submit</button>
+    </form>
+  </body>
+</html>
